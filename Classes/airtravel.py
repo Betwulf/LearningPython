@@ -71,6 +71,33 @@ class Flight:
         self._seating[to_row][to_letter] = self._seating[from_row][from_letter]
         self._seating[from_row][from_letter] = None
 
+    def passenger_generator(self):
+        row_numbers, seat_letters = self._aircraft.seating_plan()
+        for row in row_numbers:
+            for seat in seat_letters:
+                passenger = self._seating[row][seat]
+                if passenger is not None:
+                    yield passenger, "{}{}".format(row, seat)
+
+
+    def console_boardingcard_printer(self, passenger, seat, flight_number, aircraft):
+        output = "| Name: {0}"   \
+                 " Flight: {1}"  \
+                 " Seat: {2}"    \
+                 " Aircraft: {3}"\
+                 " |".format(passenger, flight_number, seat, aircraft)
+
+        banner = '+' + '-'*(len(output) - 2) + '+'
+        border = "|" + ' '*(len(output) - 2) + '|'
+        lines = [banner, border, output, border, banner]
+        card = '\n'.join(lines)
+        print(card)
+        print()
+
+    def print_boarding_cards(self, printer):
+        for p,s in sorted(self.passenger_generator()):
+            printer(p, s, self.number(), self.aircraft_model())
+
 
 class Aircraft:
 
@@ -99,17 +126,17 @@ if __name__ == '__main__':
     f = Flight("AC369", a)
     print(f.aircraft_model())
 
-    for s in f._seating:
-        print(s)
-
     f.allocate_seat("15A", "Bob Smith")
     f.allocate_seat("15C", "Susan Smith")
     f.allocate_seat("15F", "Madonna")
     f.allocate_seat("16A", "Jojo McFlargen")
+    for s in f.passenger_generator():
+        print(s)
+    print()
+
     f.relocate_passenger("16A", "16B")
 
-    for s in f._seating:
-        print(s)
+    f.print_boarding_cards(f.console_boardingcard_printer)
 
     print("Seats available:", f.seats_available())
 
