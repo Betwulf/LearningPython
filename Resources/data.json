@@ -1,0 +1,171 @@
+{
+  "universeName": "Test",
+  "constituents": [
+    {
+      "ticker": "AMZN",
+      "description": "Amazon.com Inc",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "ticker": "BRK-B",
+      "description": "Berkshire Hathaway",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "SCTY",
+      "description": "SolarCity Corporation",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "CYS",
+      "description": "CYS Investments, Inc.",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "LL",
+      "description": "Lumber Liquidators Holdings, Inc.",
+      "sector": "Materials"
+    },
+    {
+      "ticker": "TSLA",
+      "description": "Tesla Motors, Inc.",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "ticker": "BPT",
+      "description": "BP Prudhoe Bay Royalty Trust",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "SPY",
+      "description": "Spider SNP 500 ETF",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "MMM",
+      "description": "3M|3M Company",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ADT",
+      "description": "ADT Corp",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "AET",
+      "description": "Aetna Inc",
+      "sector": "Health Care"
+    },
+    {
+      "ticker": "AFL",
+      "description": "AFLAC Inc",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "AMG",
+      "description": "Affiliated Managers Group Inc",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "A",
+      "description": "Agilent Technologies Inc",
+      "sector": "Health Care"
+    },
+    {
+      "ticker": "AKAM",
+      "description": "Akamai Technologies Inc",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "AA",
+      "description": "Alcoa Inc",
+      "sector": "Materials"
+    },
+    {
+      "ticker": "GOOGL",
+      "description": "Alphabet Inc Class A",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "GOOG",
+      "description": "Alphabet Inc Class C",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "MO",
+      "description": "Altria Group Inc",
+      "sector": "Consumer Staples"
+    },
+    {
+      "ticker": "AAL",
+      "description": "American Airlines Group",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ADP",
+      "description": "Automatic Data Processing",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "BBBY",
+      "description": "Bed Bath & Beyond",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "ticker": "CAT",
+      "description": "Caterpillar Inc.",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "KO",
+      "description": "The Coca Cola Company",
+      "sector": "Consumer Staples"
+    },
+    {
+      "ticker": "JPM",
+      "description": "JPMorgan Chase & Co.",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "LM",
+      "description": "Legg Mason",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "MCD",
+      "description": "McDonald's Corp.",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "ticker": "MRK",
+      "description": "Merck & Co.",
+      "sector": "Health Care"
+    },
+    {
+      "ticker": "MET",
+      "description": "MetLife Inc.",
+      "sector": "Financials"
+    },
+    {
+      "ticker": "ORCL",
+      "description": "Oracle Corp.",
+      "sector": "Information Technology"
+    },
+    {
+      "ticker": "PFE",
+      "description": "Pfizer Inc.",
+      "sector": "Health Care"
+    },
+    {
+      "ticker": "SYY",
+      "description": "Sysco Corp.",
+      "sector": "Consumer Staples"
+    }
+
+  ],
+  "id": "Test",
+  "_rid": null,
+  "_self": null,
+  "_ts": 0,
+  "_etag": null
+}
